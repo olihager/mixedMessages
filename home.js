@@ -15,11 +15,11 @@ function message() {
 
     }
 
-    console.log(num);
+    console.log(object.num);
 
     console.log("Hello I am ! Today we will look at your horiscope");
-    console.log("It sounds like you need" + message1[num]);
-    console.log("You need to look for a" + message2[num]);
+    console.log("It sounds like you need" + object.message1[object.num]);
+    console.log("You need to look for a" + object.message2[object.num]);
     console.log("In this")
      // end of object
 
