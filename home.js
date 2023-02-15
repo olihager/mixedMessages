@@ -41,10 +41,11 @@ function message() {
 
     console.log(object.num);
 
-    console.log(`Hello I am ${object.message3[object.num]} your fortune teller! Today we will look at your horiscope`);
-    console.log(`It sounds like you need ${object.message1[object.num]}`);
-    console.log(`You need to look for a ${object.message2[object.num]} called ${object.message4[object.num]}`);
-    console.log(`Ask for a woman called ${object.message5[object.num]} she will give you a ${y}`);
+    console.log(`Hello I am ${object.message3[object.num]} your fortune teller! Today we will look at your horiscope.
+    It sounds like you need ${object.message1[object.num]}. 
+    You need to look for a ${object.message2[object.num]} called ${object.message4[object.num]}.
+    Ask for a woman called ${object.message5[object.num]} she will give you a ${y}.`);
+    
     
     
 
